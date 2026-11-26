@@ -1,0 +1,2 @@
+# Multivariate_Statistical_Modeling_in_Engineering_and_Management
+Unofficial Python implementation of Jhareswar Maiti's Multivariate Statistical Modeling in Engineering and Management
