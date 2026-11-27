@@ -23,9 +23,9 @@ import numpy as np
 avg_2 = np.mean(my_list)
 
 #Printing result:
-print(f"(Trial 2 The mean of the given dataset using numpy is = {avg_2:.3f} ")
+print(f"(Trial 2) The mean of the given dataset using numpy is = {avg_2:.3f} ")
 
-#O/P: (Trial 2 The mean of the given dataset using numpy is = 10.667 
+#O/P: (Trial 2) The mean of the given dataset using numpy is = 10.667 
 #--------------------------------------------------------------------------------------------------
 
 '''
