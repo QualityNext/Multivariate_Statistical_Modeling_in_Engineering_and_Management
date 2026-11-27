@@ -12,3 +12,10 @@ Unofficial Python implementation of the Multivariate Statistical Modeling in Eng
 >[!NOTE]
 >In numpy the default formula for calculating percentile is (n-1)*(p/100) where n is the number of data points and p is the target percentile.
 >Either of the formula can be used for calculating percentile.
+
+## Finding the mean of a given dataset
+- The mean of the dataset can be visualised as the center of mass of all the data points.<br> 
+It is calculated as mean = (Sum of all the data points)/n where n is the number of data points.
+- It is a measure of central tendency. By trying to find the central tendency of a dataset, a person may be trying to find a  way to represent the whole dataset with a single number that will give a very good idea of all the data points.
+- Knowing the central tendency may be useful if a persion want to know an estimate of price of a house at a particular location.
+- Knowing the mean may not be a very good way of finding the central tendency as it is very sensitive to outliers and so we also use median and mode to identify the central tendency.        
