@@ -28,7 +28,10 @@ print(f"(Trial 2 The mean of the given dataset using numpy is = {avg_2:.3f} ")
 #O/P: (Trial 2 The mean of the given dataset using numpy is = 10.667 
 #--------------------------------------------------------------------------------------------------
 
-#Testing the sensitivity to outliers.
+'''
+Find outliers and calculate mean for the new dataset.
+10, 12, -28, 11, 0.001, 9, 9, 10, 11, 12, 2000, 11, 10, 11, 12
+'''
 my_new_list = np.array([10, 12, -28, 11, 0.001, 9, 9, 10, 11, 12, 2000, 11, 10, 11, 12]) #We need to define the dataset as an np.array for *1
 
 q1 = np.percentile(my_new_list,25) #Gives the Q1-quartile using the numpy's percentile function.
