@@ -26,4 +26,7 @@ It is calculated as mean = (Sum of all the data points)/n where n is the number 
 - Knowing the central tendency may be useful if a person want to know an estimate of price of a house at a particular location.
 - Knowing the mean may not be a very good way of finding the central tendency as it is very sensitive to outliers and so we also use median and mode to identify the central tendency.
 
+- **Check out on YouTube:**
+https://youtu.be/8RrP_uxzo84
+
 - **Source file:** [`Mean_Var_Std/mean.py`](Mean_Var_Std/mean.py)
