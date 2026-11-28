@@ -33,3 +33,10 @@ https://youtu.be/8RrP_uxzo84
 
 ## Variance and Standard Deviation
 - The Variance and the Standard Deviation are the measure of variability (also called dispersion) of a data set.
+- Formula for Sample Variance (s<sup>2</sup>) and Sample Standard Deviation (s) are as follows.  
+  ![Sample Variance](images/variance%20formula.png)  
+  ![Sample Standard Deviation](images/Standard%20Deviation%20formula.png)  
+  where n is the number of items in the data set and x bar is the mean of the items in the data set.
+- Variability measures how spreadout or scattered the values in the dataset are around a central value in this case mean.
+- Low Variavility means the data points are tightly clustered near the average and High variability means the opposite, the data points are spread out from the average.  
+- Other Common measures of variability are IQR (Q3-Q1) and range-the difference between the maximum and the minimum value in the dataset.
