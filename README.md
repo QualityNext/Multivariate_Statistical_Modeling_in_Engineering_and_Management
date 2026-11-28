@@ -30,3 +30,6 @@ It is calculated as mean = (Sum of all the data points)/n where n is the number 
 https://youtu.be/8RrP_uxzo84
 
 - **Source file:** [`Mean_Var_Std/mean.py`](Mean_Var_Std/mean.py)
+
+## Variance and Standard Deviation
+- The Variance and the Standard Deviation are the measure of variability (also called dispersion) of a data set.
