@@ -47,6 +47,11 @@ print(f"Mean Subtracted Deviation ={[round(x,3) for x in mean_subtracted_deviati
 print(f"Squared Mean Subtracted Deviation ={[round(x,3) for x in squared_mean_subtracted_deviation]}") #Squared MSD
 print(f"Sum of squared Mean Subtracted Deviation = {sum_of_squared_mean_subtracted_deviation:.3f}") #Sum of Squared MSD
 
+# O/P:
+# Mean Subtracted Deviation =[-0.667, 1.333, 0.333, -1.667, -1.667, -0.667, 0.333, 1.333, 0.333, -0.667, 0.333, 1.333]
+# Squared Mean Subtracted Deviation =[0.444, 1.778, 0.111, 2.778, 2.778, 0.444, 0.111, 1.778, 0.111, 0.444, 0.111, 1.778]
+# Sum of squared Mean Subtracted Deviation = 12.667
+
 #=========
 # Step-5
 #=========
@@ -59,6 +64,10 @@ Sample_Standard_Deviation = Sample_Variance **0.5
 #Printing Final Result:
 print(f"Sample variance = {Sample_Variance:.3f}")
 print(f"Sample Standard Deviation = {Sample_Standard_Deviation:.3f}")
+
+# O/P:
+# Sample variance = 1.152
+# Sample Standard Deviation = 1.073
 #--------------------------------------------------------------------------------------------------------------
 
 import pandas as pd
@@ -75,6 +84,22 @@ data = {
 df = pd.DataFrame(data)
 print(f"\nPandas Data Frame representation:\n{df.round(3)}")
 
+#O/P:
+#Pandas Data Frame representation:
+#    Observation    MSD  Squared MSD
+#0            10 -0.667        0.444
+#1            12  1.333        1.778
+#2            11  0.333        0.111
+#3             9 -1.667        2.778
+#4             9 -1.667        2.778
+#5            10 -0.667        0.444
+#6            11  0.333        0.111
+#7            12  1.333        1.778
+#8            11  0.333        0.111
+#9            10 -0.667        0.444
+#10           11  0.333        0.111
+#11           12  1.333        1.778
+
 #Calculating Sample Variance and Sample Standard Deviation of the Observation
 # ddof = 0 is the default case. It calculates Population Variance and Population Standard Deviation. Putting ddof = 1 will calculate Sample Variance and Standard Deviation.
 Sample_Variance_1 = np.var(df['Observation'], ddof=1) 
@@ -83,3 +108,7 @@ Sample_Standard_Deviation_1 = np.std(df['Observation'], ddof=1)
 #Printing Results
 print("Sample Variance calculated using numpy =",Sample_Variance_1.round(3))
 print("Sample Standard deviaion calculated using numpy =", Sample_Standard_Deviation_1.round(3))
+
+# O/P:
+# Sample Variance calculated using numpy = 1.152
+# Sample Standard deviaion calculated using numpy = 1.073
